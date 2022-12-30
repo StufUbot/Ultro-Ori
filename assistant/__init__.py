@@ -26,7 +26,7 @@ async def setit(event, name, value):
     try:
         udB.set_key(name, value)
     except BaseException:
-        return await event.edit("`Something Went Wrong`")
+        return await event.edit("`Ada yang salah`")
 
 
 def get_back_button(name):
